@@ -9,9 +9,11 @@
             margin: 0;
             overflow: hidden;
             background: url('https://kun1026.github.io/ting1/kt.jpg') no-repeat center center;
-            background-size: 150px 150px; /* 让图片适应背景区域并保持比例 */
-            background-position: center center; /* 图片居中 */
-/*             background-repeat: no-repeat; /* 不重复显示图片 */ */
+            background-size: contain;  /* 保持图像比例，完全包含在容器内 */
+            background-position: center; /* 图像居中 */
+            background-repeat: no-repeat;
+            margin: auto;
+            position: relative; /* 保证图像在屏幕上居中 */
 /*             background: #000; */
         }
          
