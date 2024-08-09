@@ -8,17 +8,15 @@
         body {
             margin: 0;
             overflow: hidden;
-            background: #000;
+            background: url('https://kun1026.github.io/ting1/kt.jpg') no-repeat center center;
+            background-size: cover;
+/*             background: #000; */
         }
          
         canvas {
             position: absolute;
             width: 100%;
             height: 100%;
-            background-image: url('https://kun1026.github.io/ting1/kt.jpg');
-            background-size: cover;
-            background-position: center center;
-            background-repeat: no-repeat;
         }
          
         #pinkboard {
@@ -26,11 +24,6 @@
             -webkit-animation: anim 1.5s ease-in-out infinite;
             -o-animation: anim 1.5s ease-in-out infinite;
             -moz-animation: anim 1.5s ease-in-out infinite;
-            background-image: url('https://kun1026.github.io/ting1/kt.jpg');
-            background-size: cover;
-            background-position: center center;
-            background-repeat: no-repeat;
-            z-index: 1; /* 如果需要确保canvas不被其他元素覆盖 */
         }
          
         @keyframes anim {
